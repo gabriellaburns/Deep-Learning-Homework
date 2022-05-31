@@ -36,9 +36,8 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
        b. steps per epoch to the equationsteps_per_epoch = int(np.ceil(X_train.shape[0]/batch_size) )
        c. outcome: 0.7308 accuracy - not bad compared to some of my other attempts.
         print(steps_per_epoch)
-    4. I created matplotlib visualizations for my model accuracy to inform the changes I made along the way. Below is an example: 
+    4. I created matplotlib visualizations for my model accuracy to inform the changes I made along the way. Below      is an example: 
     ![alt text](accuracy.png?raw=true)
-
     2. I choose a cutoff value and created a list of classifications to be replaced to reduce noise in the data
     3. I binned the outlier data for "Classification" and "Application Type" because of their high variability into a new value "Other" .
        a. I changed the cutoff value several times while tinkering with the model to balance noise reduction and data retention
