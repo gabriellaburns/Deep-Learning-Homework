@@ -37,7 +37,7 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
        c. outcome: 0.7308 accuracy - not bad compared to some of my other attempts.
         print(steps_per_epoch)
     4. I created matplotlib visualizations for my model accuracy to inform the changes I made along the way. Below is an example: 
-    ![alt text](https://github.com/[gabriellaburns]/[Deep-Learning_Homework]/blob/[main]/accuracy.png?raw=true)
+    ![alt text](accuracy.png?raw=true)
 
     2. I choose a cutoff value and created a list of classifications to be replaced to reduce noise in the data
     3. I binned the outlier data for "Classification" and "Application Type" because of their high variability into a new value "Other" .
